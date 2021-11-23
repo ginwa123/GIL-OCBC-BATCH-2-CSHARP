@@ -12,8 +12,6 @@ public class Assignment1
 
         Assignment1 assign = new Assignment1();
 
-
-
         while (isNotFinished)
         {
             Console.WriteLine("=== Assignment 1 ===");
@@ -114,39 +112,35 @@ public class Assignment1
                     // note # adalah space
                     Console.Write(" ");
 
-                    // kondisi -> apakah sudah berada di akhir loop ?
-                    if (j == i - 1)
-                    {
-                        for (int z = 0; z < inc + 1; z++)
-                        {
-                            // melakukan perulangan -> print nilai abjad 
-                            // untuk bagian kiri berdasarkan kondisi nilai inc
-                            // #####a
-                            // ####ab
-                            // ###abc
-                            // ##abcd
-                            // #abcde
-                            // note # adalah space
-                            Console.Write(myLetter[z]);
+                  
+                }
+  
+                for (int z = 0; z < inc + 1; z++)
+                {
+                    // melakukan perulangan -> print nilai abjad 
+                    // untuk bagian kiri berdasarkan kondisi nilai inc
+                    // #####a
+                    // ####ab
+                    // ###abc
+                    // ##abcd
+                    // #abcde
+                    // note # adalah space
+                    Console.Write(myLetter[z]);
 
-                            // kondisi -> apakah sudah berada di akhir loop ?
-                            if (z == inc)
-                            {
-                                for (int x = z - 1; x >= 0; x--)
-                                {
-                                    // melakukan perulangan reverse -> print nilai abjad 
-                                    // untuk bagian kanan berdasarkan kondisi nilai inc atau z
-                                    // #####a
-                                    // ####aba
-                                    // ###abcba
-                                    // ##abcdcba
-                                    // #abcdedcba
-                                    // note # adalah space
-                                    Console.Write(myLetter[x]);
-                                }
-                            }
-                        }
-                    }
+                }
+
+
+                for (int x = inc - 1; x >= 0; x--)
+                {
+                    // melakukan perulangan reverse -> print nilai abjad 
+                    // untuk bagian kanan berdasarkan kondisi nilai inc atau z
+                    // #####a
+                    // ####aba
+                    // ###abcba
+                    // ##abcdcba
+                    // #abcdedcba
+                    // note # adalah space
+                    Console.Write(myLetter[x]);
                 }
                 Console.WriteLine("");
                 inc++;
@@ -178,11 +172,9 @@ public class Assignment1
                 continue;
             }
 
-
             int inc = 1;
             for (int i = range; i >= 1; i--)
             {
-
                 for (int j = 0; j < i; j++)
                 {
                     // melakukan perulangan untuk print space hingga nilai range misal 5
@@ -194,39 +186,33 @@ public class Assignment1
                     // note # adalah space
                     Console.Write(" ");
 
-                    // kondisi -> apakah sudah berada di akhir loop ?
-                    if (j == i - 1)
-                    {
-                        for (int z = 1; z < inc + 1; z++)
-                        {
-                            // melakukan perulangan -> print nilai angka
-                            // untuk bagian kiri berdasarkan kondisi nilai inc
-                            // #####1
-                            // ####12
-                            // ###123
-                            // ##1234
-                            // #12345
-                            // note # adalah space
-                            Console.Write(z);
+        
+                }
 
-                            // kondisi -> apakah sudah berada di akhir loop ?
-                            if (z == inc)
-                            {
-                                for (int x = z - 1; x >= 1; x--)
-                                {
-                                    // melakukan perulangan -> print nilai angka
-                                    // untuk bagian kiri berdasarkan kondisi nilai inc
-                                    // #####1
-                                    // ####121
-                                    // ###12321
-                                    // ##1234321
-                                    // #123454321
-                                    // note # adalah space
-                                    Console.Write(x);
-                                }
-                            }
-                        }
-                    }
+                for (int z = 1; z < inc + 1; z++)
+                {
+                    // melakukan perulangan -> print nilai angka
+                    // untuk bagian kiri berdasarkan kondisi nilai inc
+                    // #####1
+                    // ####12
+                    // ###123
+                    // ##1234
+                    // #12345
+                    // note # adalah space
+                    Console.Write(z);
+                }
+
+                for (int x = inc - 1; x >= 1; x--)
+                {
+                    // melakukan perulangan -> print nilai angka
+                    // untuk bagian kiri berdasarkan kondisi nilai inc
+                    // #####1
+                    // ####121
+                    // ###12321
+                    // ##1234321
+                    // #123454321
+                    // note # adalah space
+                    Console.Write(x);
                 }
                 Console.WriteLine("");
                 inc++;
