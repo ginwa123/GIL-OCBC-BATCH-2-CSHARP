@@ -20,7 +20,7 @@ public class Assignment1
             Console.WriteLine();
             Console.WriteLine();
             Console.WriteLine();
-            Console.WriteLine("Pilih menu 1 - 5");
+            Console.WriteLine("Pilih menu 1 - 8");
             Console.WriteLine("1. Pyramid Abjad");
             Console.WriteLine("2. Pyramid Angka");
             Console.WriteLine("3. Factorial");
