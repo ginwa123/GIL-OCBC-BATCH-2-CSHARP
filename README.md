@@ -12,17 +12,17 @@
      - Learn C# data structure like array, array2d, array jagged, string
     - Assigment 1
       - Pyramid Letter
-        - ![pyramidLetter]([https://link](https://github.com/ginwa123/GIL-OCBC-BATCH-2-CSHARP/tree/main/Assignment01/Soal1.png))
+        - ![pyramidLetter]([(https://github.com/ginwa123/GIL-OCBC-BATCH-2-CSHARP/tree/main/Assignment01/Soal1.png)])
       - Pyramid Number
-        - ![pyramidNumber]([https://link](https://github.com/ginwa123/GIL-OCBC-BATCH-2-CSHARP/tree/main/Assignment01/Soal2.png))
+        - ![pyramidNumber]([(https://github.com/ginwa123/GIL-OCBC-BATCH-2-CSHARP/tree/main/Assignment01/Soal2.png)])
       - Factorial
-        - ![factorial]([https://link](https://github.com/ginwa123/GIL-OCBC-BATCH-2-CSHARP/tree/main/Assignment01/Soal3.png))
+        - ![factorial]([(https://github.com/ginwa123/GIL-OCBC-BATCH-2-CSHARP/tree/main/Assignment01/Soal3.png)])
       - Reversed String
-        - ![Reversed String]([https://link](https://github.com/ginwa123/GIL-OCBC-BATCH-2-CSHARP/tree/main/Assignment01/Soal4.png))
+        - ![Reversed String]([(https://github.com/ginwa123/GIL-OCBC-BATCH-2-CSHARP/tree/main/Assignment01/Soal4.png)])
       - Convert Number
-        - ![convert number]([https://link](https://github.com/ginwa123/GIL-OCBC-BATCH-2-CSHARP/tree/main/Assignment01/Soal5.png))
+        - ![convert number]([(https://github.com/ginwa123/GIL-OCBC-BATCH-2-CSHARP/tree/main/Assignment01/Soal5.png)])
       - Palindrome
-        - ![palindrome]([https://link](https://github.com/ginwa123/GIL-OCBC-BATCH-2-CSHARP/tree/main/Assignment01/Palindrome.png)) 
+        - ![palindrome]([(https://github.com/ginwa123/GIL-OCBC-BATCH-2-CSHARP/tree/main/Assignment01/Palindrome.png)]) 
 - Day 3
    - Session 5
      - Learn C# OOP
