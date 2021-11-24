@@ -1,0 +1,35 @@
+# Bootcamp OCBC Full Stack Engineer C#
+- Day 1
+   - Session 1
+     - Install .Net 5, Mono SDK etc
+     - run a C# applcation using .Net and mono SDK
+   - Session 2
+     - Learn basic C# programming like type data, operator, conditional etc
+- Day 2
+   - Session 3
+     - Learn basic C# programming like looping (for, while)and conditional (if, else if, switch case)
+   - Session 4
+     - Learn C# data structure like array, array2d, array jagged, string
+    - Assigment 1
+      - Pyramid Letter
+        - ![pyramidLetter]([https://link](https://github.com/ginwa123/GIL-OCBC-BATCH-2-CSHARP/tree/main/Assignment01/Soal1.png))
+      - Pyramid Number
+        - ![pyramidNumber]([https://link](https://github.com/ginwa123/GIL-OCBC-BATCH-2-CSHARP/tree/main/Assignment01/Soal2.png))
+      - Factorial
+        - ![factorial]([https://link](https://github.com/ginwa123/GIL-OCBC-BATCH-2-CSHARP/tree/main/Assignment01/Soal3.png))
+      - Reversed String
+        - ![Reversed String]([https://link](https://github.com/ginwa123/GIL-OCBC-BATCH-2-CSHARP/tree/main/Assignment01/Soal4.png))
+      - Convert Number
+        - ![convert number]([https://link](https://github.com/ginwa123/GIL-OCBC-BATCH-2-CSHARP/tree/main/Assignment01/Soal5.png))
+      - Palindrome
+        - ![palindrome]([https://link](https://github.com/ginwa123/GIL-OCBC-BATCH-2-CSHARP/tree/main/Assignment01/Palindrome.png)) 
+- Day 3
+   - Session 5
+     - Learn C# OOP
+   - Session 6
+     - Learning basic MS SQL Query like CRUD, join
+    - Assignment4
+      - Todo 
+- Day 4
+   1. ----
+
