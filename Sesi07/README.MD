@@ -5,7 +5,7 @@
     - ![loginFormFailed](loginFormFailed.png)
   
 - Berhasil mendaftarkan akun
-    - ![registerFormSuccess](registerFormSuccess.png)
+    - ![registerFormSuccess](RegisterFormSuccess.png)
   
 - Gagal mendaftarkan akun karena akun sudah terbuat
     - ![registerFormFailed](registerFormFailed.png)
