@@ -1,0 +1,12 @@
+D:\04. GILANG\1. OCBC NISP Fullstack Engineer Intern\Bootcamp Dev 1\Sesi07\FormLogin\bin\Debug\FormLogin.exe.config
+D:\04. GILANG\1. OCBC NISP Fullstack Engineer Intern\Bootcamp Dev 1\Sesi07\FormLogin\bin\Debug\FormLogin.exe
+D:\04. GILANG\1. OCBC NISP Fullstack Engineer Intern\Bootcamp Dev 1\Sesi07\FormLogin\bin\Debug\FormLogin.pdb
+D:\04. GILANG\1. OCBC NISP Fullstack Engineer Intern\Bootcamp Dev 1\Sesi07\FormLogin\obj\Debug\FormLogin.csproj.AssemblyReference.cache
+D:\04. GILANG\1. OCBC NISP Fullstack Engineer Intern\Bootcamp Dev 1\Sesi07\FormLogin\obj\Debug\FormLogin.csproj.SuggestedBindingRedirects.cache
+D:\04. GILANG\1. OCBC NISP Fullstack Engineer Intern\Bootcamp Dev 1\Sesi07\FormLogin\obj\Debug\FormLogin.formLogin.resources
+D:\04. GILANG\1. OCBC NISP Fullstack Engineer Intern\Bootcamp Dev 1\Sesi07\FormLogin\obj\Debug\FormLogin.Properties.Resources.resources
+D:\04. GILANG\1. OCBC NISP Fullstack Engineer Intern\Bootcamp Dev 1\Sesi07\FormLogin\obj\Debug\FormLogin.csproj.GenerateResource.cache
+D:\04. GILANG\1. OCBC NISP Fullstack Engineer Intern\Bootcamp Dev 1\Sesi07\FormLogin\obj\Debug\FormLogin.csproj.CoreCompileInputs.cache
+D:\04. GILANG\1. OCBC NISP Fullstack Engineer Intern\Bootcamp Dev 1\Sesi07\FormLogin\obj\Debug\FormLogin.exe
+D:\04. GILANG\1. OCBC NISP Fullstack Engineer Intern\Bootcamp Dev 1\Sesi07\FormLogin\obj\Debug\FormLogin.pdb
+D:\04. GILANG\1. OCBC NISP Fullstack Engineer Intern\Bootcamp Dev 1\Sesi07\FormLogin\obj\Debug\FormLogin.RegisterForm.resources
