@@ -38,13 +38,13 @@ namespace FormLogin
 
         private void btRegisterNowListener(object sender, EventArgs e)
         {
-            if (inputUsername.Text == null || inputPassword.Text == null)
+            if (inputUsername.Text == null || inputPassword.Text == null || inputName.Text == null)
             {
                 MessageBox.Show($"Input tidak boleh kosong");
                 return;
             }
-          
-            if (config.createNewAccount(inputUsername.Text, inputPassword.Text))
+
+            if (config.createNewAccount(inputUsername.Text, inputPassword.Text, inputName.Text))
             {
                 MessageBox.Show($"Akun {inputUsername.Text} berhasil dibuat");
             }
@@ -54,6 +54,7 @@ namespace FormLogin
             }
             inputUsername.Text = "";
             inputPassword.Text = "";
+            inputName.Text = "";
 
         }
     }

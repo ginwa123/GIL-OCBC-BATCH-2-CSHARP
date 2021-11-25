@@ -13,7 +13,7 @@ namespace FormLogin
     {
         private SqlConnection connection;
         private string server = "localhost";
-        private string databaseName = "cuman_coba";
+        private string databaseName = "userdata";
 
         public bool connectToDb()
         {
@@ -38,26 +38,37 @@ namespace FormLogin
         }
 
 
-        public bool login(string username, string password)
+        public string login(string username, string password)
         {
 
-            string query = $"SELECT TOP(1) * FROM users " +
+            string query = $"SELECT TOP(1) names FROM user_info " +
                            $"WHERE username='{username}' AND password='{password}'";
             connection.Open();
             SqlCommand command = new SqlCommand(query, connection);
-            object result = command.ExecuteScalar();
+            var reader = command.ExecuteReader();
+
+            string result = "";
+            if (reader.HasRows)
+            {
+                while (reader.Read())
+                {
+                    result = $"Selamat datang {reader.GetString(0)}";
+                }
+
+            }
+            else result = "User tidak ditemukan";
             connection.Close();
-            if (result != null) return true;
-            else return false;
+            reader.Close();
+            return result;
         }
 
-        public bool createNewAccount(string username, string password)
+        public bool createNewAccount(string username, string password, string names)
         {
             SqlCommand command;
             string query = "";
 
             // check user apakah sudah terdaftar ???
-            query = $"SELECT TOP(1) * FROM users " +
+            query = $"SELECT TOP(1) * FROM user_info " +
                     $"WHERE username='{username}'";
             connection.Open();
             command = new SqlCommand(query, connection);
@@ -67,8 +78,8 @@ namespace FormLogin
 
             // create new account
             connection.Open();
-            query = $"INSERT INTO users (username, password)" +
-                           $"VALUES ('{username}', '{password}')";
+            query = $"INSERT INTO user_info (username, password, names)" +
+                           $"VALUES ('{username}', '{password}', '{names}')";
             command = new SqlCommand(query, connection);
             command.ExecuteNonQuery();
             connection.Close();

@@ -67,11 +67,9 @@ namespace FormLogin
 
         private void btLoginListener(object sender, EventArgs e)
         {
-            if (config.login(inputUsername.Text, inputPassword.Text))
-            {
-                MessageBox.Show("Username dan password cocok");
-            }
-            else MessageBox.Show("Password Salah");
+            var result = config.login(inputUsername.Text, inputPassword.Text);
+            MessageBox.Show(result);
+
         }
 
         private void btRegisterListener(object sender, EventArgs e)
