@@ -1,4 +1,4 @@
-# Bootcamp OCBC Full Stack Engineer C#
+# Bootcamp OCBC Full Stack Engineer Intern C#
 - Day 1
    - Session 1
      - Install .Net 5, Mono SDK etc
@@ -10,19 +10,6 @@
      - Learn basic C# programming like looping (for, while)and conditional (if, else if, switch case)
    - Session 4
      - Learn C# data structure like array, array2d, array jagged, string
-    - Assigment 1
-      - Pyramid Letter
-        - ![pyramidLetter](Assignment01/Soal1.png)
-      - Pyramid Number
-        - ![pyramidNumber](Assignment01/Soal2.png)
-      - Factorial
-        - ![factorial](Assignment01/Soal3.png)
-      - Reversed String
-        - ![Reversed String](Assignment01/Soal4.png)
-      - Convert Number
-        - ![convert number](Assignment01/Soal5.png)
-      - Palindrome
-        - ![palindrome](Assignment01/Palindrome.png) 
 - Day 3
    - Session 5
      - Learn C# OOP

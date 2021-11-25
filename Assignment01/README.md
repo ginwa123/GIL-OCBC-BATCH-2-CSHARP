@@ -1,0 +1,13 @@
+# Screenshot Program Assignment 1
+- Pyramid Letter
+  - ![pyramidLetter](Soal1.png)
+- Pyramid Number
+  - ![pyramidNumber](Soal2.png)
+- Factorial
+  - ![factorial](Soal3.png)
+- Reversed String
+  - ![Reversed String](Soal4.png)
+- Convert Number
+  - ![convert number](Soal5.png)
+- Palindrome
+  - ![palindrome](Palindrome.png) 
