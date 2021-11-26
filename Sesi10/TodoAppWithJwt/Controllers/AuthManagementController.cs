@@ -51,11 +51,62 @@ namespace TodoAppWithJwt.Controllers
         }
 
         [HttpPost]
+        [Route("Login")]
+        public async Task<IActionResult> Login([FromBody] UserLoginRequest user)
+        {
+            if (ModelState.IsValid)
+            {
+                var existingUser = await userManager.FindByEmailAsync(user.Email);
+
+                if (existingUser == null)
+                {
+                    return BadRequest(new RegistrationResponse()
+                    {
+                        Errors = new List<string>(){
+                            "Invalid login request"
+                        },
+                        Success = false
+                    });
+                }
+
+                var isCorrect = await userManager.CheckPasswordAsync(existingUser, user.Password);
+
+                if (!isCorrect)
+                {
+                    return BadRequest(new RegistrationResponse()
+                    {
+                        Errors = new List<string>(){
+                            "Invalid login request"
+                        },
+                        Success = false
+                    });
+                }
+
+                var jwtToken = GenerateJwtToken(existingUser);
+
+                return Ok(new RegistrationResponse()
+                {
+                    Success = true,
+                    Token = jwtToken
+                });
+            }
+
+            return BadRequest(new RegistrationResponse()
+            {
+                Errors = new List<string>(){
+                    "Invalid payload"
+                },
+                Success = false
+            });
+        }
+
+        [HttpPost]
         [Route("Register")]
         public async Task<IActionResult> Register([FromBody] UserRegistrationDto user)
         {
             if (ModelState.IsValid)
             {
+
                 var existUser = await userManager.FindByEmailAsync(user.Email);
 
                 if (existUser != null)
@@ -78,7 +129,7 @@ namespace TodoAppWithJwt.Controllers
                 };
 
                 var isCreated = await userManager.CreateAsync(newUser, user.Password);
-                if (!isCreated.Succeeded)
+                if (isCreated.Succeeded)
                 {
                     var jwToken = GenerateJwtToken(newUser);
                     return Ok(new RegistrationResponse()
