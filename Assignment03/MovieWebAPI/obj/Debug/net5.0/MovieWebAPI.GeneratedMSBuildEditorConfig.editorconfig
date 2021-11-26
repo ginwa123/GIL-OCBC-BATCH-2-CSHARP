@@ -1,0 +1,10 @@
+is_global = true
+build_property.TargetFramework = net5.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.PublishSingleFile = 
+build_property.IncludeAllContentForSelfExtract = 
+build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
+build_property.RootNamespace = MovieWebAPI
+build_property.ProjectDir = D:\04. GILANG\1. OCBC NISP Fullstack Engineer Intern\Bootcamp Dev 1\Assignment03\MovieWebAPI\
