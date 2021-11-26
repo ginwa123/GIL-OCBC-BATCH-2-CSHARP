@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "01db6e9e-e7d4-4443-bff7-675cb23ddf94": {
+      "ProjectGuid": "01db6e9e-e7d4-4443-bff7-675cb23ddf94",
+      "DisplayName": "TodoAppWithJwt",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}
