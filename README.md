@@ -1,4 +1,4 @@
-# Bootcamp OCBC Full Stack Engineer Intern C#
+# Bootcamp OCBC NISP Full Stack Engineer Intern C#
 - Day 1
    - Session 1
      - Install .Net 5, Mono SDK etc
@@ -15,8 +15,17 @@
      - Learn C# OOP
    - Session 6
      - Learning basic MS SQL Query like CRUD, join
-    - Assignment4
-      - Todo 
 - Day 4
-   1. ----
+   - Session 7
+     - Learn .NET, to develop windows application GUI
+   - Session 8
+     - Analysis ASP WEB template
+- Day 5
+    - Session 9
+      - Learn ASP WEB API to develop RESTful API 
+      - Learn to test API using  Postman or Swagger
+    - Session 10
+      - Learn ASP WEB API to develop RESTful API using Entity Framework Core to automate create database sqlite and use JWT(JSON Web Token) as a authentication system
+- Day 6
+  - Todo
 
