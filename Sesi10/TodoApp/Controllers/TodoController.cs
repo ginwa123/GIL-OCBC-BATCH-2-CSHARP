@@ -63,7 +63,7 @@ namespace TodoApp.Controllers
 
             await context.SaveChangesAsync();
 
-            return NoContent();
+            return Ok("Update Success");
         }
 
         [HttpDelete("{id}")]
@@ -76,7 +76,7 @@ namespace TodoApp.Controllers
             context.Items.Remove(existsItem);
             await context.SaveChangesAsync();
 
-            return Ok(existsItem);
+            return Ok("Delete Success");
         }
 
         [Route("TestRun")]
