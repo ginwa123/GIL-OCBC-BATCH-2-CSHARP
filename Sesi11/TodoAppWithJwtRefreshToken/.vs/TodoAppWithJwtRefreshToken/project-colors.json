@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "d9b7b750-f908-4aaa-8506-df2c1d1d5dcf": {
+      "ProjectGuid": "d9b7b750-f908-4aaa-8506-df2c1d1d5dcf",
+      "DisplayName": "TodoAppWithJwtRefreshToken",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
