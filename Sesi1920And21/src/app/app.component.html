@@ -1,0 +1,30 @@
+<app-toolbar [messageFromParent]="ginwa" (clickHandler)="showMessage($event)"></app-toolbar>
+
+<div>
+  {{ messageFromChild }}
+</div>
+
+
+
+<br>
+
+
+<div *ngFor="let item of countriesByMass()">
+  {{ item["name"] }}
+</div>
+
+<br>
+<br>
+
+<div *ngFor="let item of countriesByPopulations()">
+  {{ item["name"] }}
+</div>
+
+
+<input  #myInput type="text">
+
+{{ myInput }}
+
+<ng-container >
+    sadasd
+</ng-container>
