@@ -1,0 +1,42 @@
+<app-navbar></app-navbar>
+
+<div class="container d-flex justify-content-center p-5">
+    <app-todo-list></app-todo-list>
+</div>
+
+
+
+<h1>Pipe</h1>
+
+<div>
+  {{ myBirthday }}
+</div>
+
+<div>
+  {{ myBirthday | date: 'd MMMM yyyy' }}
+</div>
+
+<div>
+  {{ myBirthday | date: 'd MMMM yyyy' | lowercase }}
+</div>
+
+<div>
+  {{ myBirthday | date: 'd MMMM yyyy' | uppercase }}
+</div>
+
+<div>
+  {{ heroes }}
+</div>
+
+<div>
+  {{ heroes | json}}
+</div>
+
+<h1>Custom Pipes</h1>
+
+<div>
+  {{ 7200 | customfilesize: "MB" }}
+</div>
+<div>
+  {{ 7200 | customfilesize: "GB" }}
+</div>
