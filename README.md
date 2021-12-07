@@ -27,5 +27,18 @@
     - Session 10
       - Learn ASP WEB API to develop RESTful API using Entity Framework Core to automate create database sqlite and use JWT(JSON Web Token) as a authentication system
 - Day 6
-  - Todo
+  - Session 11
+      - Learn JWT Token and refresh token
+  - Session 12
+      - Learn unit test
+      - Learn performance test using jmeter
+- Day 7
+  - Session 13 and session 14
+    - Learn docker and heroku
+- Day 8
+  - Session 15
+    - Learn deploy ASP Web Api to HEROKU 
+- Day 9
+  - Session 16
+    - Present final project 
 
