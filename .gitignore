@@ -74,6 +74,7 @@ chrome-profiler-events*.json
 !.vscode/launch.json
 !.vscode/extensions.json
 .history/*
+.dbeaver/*
 
 # misc
 /.sass-cache
