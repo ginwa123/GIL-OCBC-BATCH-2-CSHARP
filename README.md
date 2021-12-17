@@ -41,4 +41,36 @@
 - Day 9
   - Session 16
     - Present final project 
-
+- Day 10
+  - Session 17
+    - Basic Javascript array, conditional, loop, operator
+  - Session 18
+    - Basic javascript Object and function
+- Day 11
+  - Session 19
+  - Session 20
+  - Session 21
+    - Learn Angular sent data from child component to parent component 
+    - Learn Angular send data from parent component to child component
+- Day 12
+  -  Session 22
+     -  Learn Angular custom pipe
+  -  Session 23
+     -  Learn Angular encapsulation, noecapsulation and shadodom
+- Day 13
+  - Session 24
+    - Learn Angular template driven form
+  - Session 25
+    - Learn angular services and routing
+- Day 14
+  - Session 26, 27
+  - Session 27
+    - Learn angular modules
+- Day 15
+  - Session 28 
+    - Learn angular deployment to heroku
+  - Session 29
+    - Learn angular unit test 
+- Day 16, 17, 18
+  - Session 30 
+    - Final Project angular
