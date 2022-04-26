@@ -43,7 +43,7 @@
 *.pdb
 
 # Kernel Module Compile Results
-*.mod*
+
 *.cmd
 .tmp_versions/
 modules.order
@@ -55,6 +55,7 @@ dkms.conf
 # dependencies
 /node_modules
 /Sesi1920And21/node_modules
+/Sesi22/node_modules
 # profiling files
 chrome-profiler-events*.json
 
